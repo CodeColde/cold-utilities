@@ -10,6 +10,6 @@ Check the duration of an article that a user has wrote. Accepts an array of stri
 ```javascript
     import { readingTime } from 'cold-utilities';
 
-    const article = `<article text here`> || `['article', 'content', 'here']`;
+    const article = `<article text here>` || `['article', 'content', 'here']`;
     const duration = readingTime(article); // returns a number, rounding down. If an article takes 2.9 minutes to read, it returns 2.
 ```
