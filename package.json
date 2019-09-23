@@ -1,8 +1,8 @@
 {
   "name": "@codecolde/utility-package",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Personal Utility Package",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --project . --noEmit",

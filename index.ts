@@ -1,4 +1,4 @@
-import readingTime, { isStringArray } from './reading-time';
+import readingTime, { isStringArray } from './src/reading-time';
 
 export {
     readingTime,
