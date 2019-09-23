@@ -1,5 +1,5 @@
 {
-  "name": "utility-package",
+  "name": "codecolde-utility-package",
   "version": "0.0.1",
   "description": "Personal Utility Package",
   "main": "dist/index.js",
