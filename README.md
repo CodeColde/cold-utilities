@@ -1,5 +1,9 @@
 # Cold Utilities - The Variety Utility Function Package
-CodeColde's Personal Utility Package. See below the table of contents with docs regarding what each function does:
+CodeColde's Personal Utility Package.
+
+Fork the (test project)[https://codesandbox.io/embed/utility-package-with-typescript-t908w?fontsize=14] if you want to play around!
+
+See below the table of contents with docs regarding what each function does:
 
 ## Articles
 For articles, a user might want some things to touch up their article publishing. Below are some utility functions that you can use:
