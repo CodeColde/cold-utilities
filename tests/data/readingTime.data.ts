@@ -1,5 +1,4 @@
-import { readingTime } from '../';
-const testArticle = `Originally published on https://cameronnokes.com/blog/the-30-second-guide-to-publishing-a-typescript-package-to-npm/
+export const testArticle = `Originally published on https://cameronnokes.com/blog/the-30-second-guide-to-publishing-a-typescript-package-to-npm/
     You already have a library/package written in TypeScript that you’re ready to publish to NPM, but you still want all the types to work and you don’t want to commit compiled JS files. This article is for you 😘.
     TLDR; you can see a simple example of this in action here:
     ccnokes/dom-event-utils
@@ -23,7 +22,3 @@ const testArticle = `Originally published on https://cameronnokes.com/blog/the-3
     Here’s what your final package.json might look like:
 
     Here’s what your final tsconfig.json might look like:`;
-
-test('Test Article Reading Duration', () => {
-    expect(readingTime(testArticle)).toBe(2);
-});
