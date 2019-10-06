@@ -1,6 +1,6 @@
 {
   "name": "@codecolde/utility-package",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Personal Utility Package",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,19 @@
     "ts-jest": "^24.1.0",
     "@types/jest": "^24.0.18",
     "husky": "^3.0.5",
+    "lint-staged": "^9.4.1",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.3"
   },
-  "dependencies": {}
+  "lint-staged": {
+    ".ts": [
+      "tslint --fix --project .",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && lint-staged"
+    }
+  }
 }
